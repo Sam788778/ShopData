@@ -1,0 +1,26 @@
+.Home {
+    text-align: center;
+    padding: 50px 20px;
+    animation: fadeIn 0.8s ease;
+}
+
+.Home h1 {
+    font-size: 3rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #646cff, #ff64b4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
